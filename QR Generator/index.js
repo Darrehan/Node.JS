@@ -12,7 +12,7 @@ inquirer
     },
   ])
   .then((answers) => {
-    //   turning url into image.QR- node module.
+    //   turning url into image. using the npm QR- node module.
     const url=answers.URL;
     var qr_svg = qr.image(url);
     qr_svg.pipe(fstat.createWriteStream("qr_img.png"));
