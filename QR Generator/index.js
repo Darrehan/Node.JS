@@ -17,7 +17,7 @@ inquirer
     qr_svg.pipe(fstat.createWriteStream("qr_img.png"));
     fs.writeFile("url.txt",url,(error)=>{
    if(error) throw error;
-    console.log("the file has been saved successfully 😒.");
+    console.log("the file has been saved successfully buddy 😒.");
     });
      
   })
