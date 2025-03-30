@@ -23,8 +23,8 @@ inquirer
   })
   .catch((err) => {
     if (error.isTtyError) {
-     console.log("couldn't be rendered in the current environment");
+     console.log(" buddy couldn't be rendered in the current environment");
     } else {
-      console.log("Something else went wrong");
+      console.log(" buddy Something else went wrong");
     }
   });
