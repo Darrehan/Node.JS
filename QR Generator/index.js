@@ -25,6 +25,6 @@ inquirer
     if (error.isTtyError) {
      console.log(" buddy couldn't be rendered in the current environment");
     } else {
-      console.log(" buddy Something else went wrong");
+      console.log(" buddy Something else went wrong here ");
     }
   });
