@@ -1,4 +1,4 @@
-// taking input from user using inquirer npm  module.
+// taking input from user using inquirer npm  node module.
 // inside prompt we are passing java script variable object inside curley braceses.
 import inquirer from 'inquirer';
 import qr from 'qr-image';
