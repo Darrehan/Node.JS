@@ -1,5 +1,4 @@
 // inside prompt we are passing java script variable object inside curley braceses.
-// QR code generator
 import inquirer from 'inquirer';
 import qr from 'qr-image';
 import fs, { fstat} from "fs";
