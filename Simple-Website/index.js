@@ -15,5 +15,5 @@ app.get("/contact", (_req, _res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server running on port buddy ${port}`);
+  console.log(`Server running on port  ${port}`);
 });
