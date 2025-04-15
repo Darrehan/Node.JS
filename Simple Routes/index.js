@@ -8,7 +8,7 @@ app.listen(port, () => {
 app.get("/", (_req, _res) => {
   _res.send("<h1>Helo Buddy From Root Home Page! </h1>");
 });
-// for sending data
+// for sending data buddy
 app.post("/register", (_req, _res) => {
   _res.sendStatus(201);
 });
