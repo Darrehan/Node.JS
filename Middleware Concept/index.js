@@ -1,4 +1,4 @@
-// using   ECMA script 6 module syntax
+// using   ECMA script 6 module
 import express from "express";
 import bodyParser from "body-parser";
 // these two lines of code takes the path from   the root directory
