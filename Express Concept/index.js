@@ -1,5 +1,5 @@
 import express from "express";
-// these two lines of code takes the path from the root directory.
+// these two lines of code takes the path from the root directory buddy .
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 // middle ware for pre-processing
@@ -30,7 +30,7 @@ app.get("/", (_req, _res) => {
 app.post("/submit", (_req, _res) => {
   _res.send(`your band name is = ${bandName} ⚡😁.`);
 });
-// Running server stuff 
+// Running server stuff
 app.listen(port, () => {
   console.log(`Buddy your server is listening on port ${port}.🤷`);
 });
