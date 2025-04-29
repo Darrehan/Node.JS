@@ -1,5 +1,5 @@
 import express from "express";
-// these two lines of code takes the path from the root directory buddy .
+// these two lines of code takes the path from the root directory
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 // middle ware for pre-processing
