@@ -4,7 +4,7 @@ import { dirname } from "path";
 import { fileURLToPath } from "url";
 // middle ware for pre-processing
 import bodyParser from "body-parser";
-// middle ware for logging in
+// middle ware for logging in buddy
 import morgan from "morgan";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
